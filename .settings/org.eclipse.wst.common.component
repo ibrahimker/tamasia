@@ -2,6 +2,7 @@
     <wb-module deploy-name="Tamasia">
         <wb-resource deploy-path="/" source-path="/apps/Tamasia/common"/>
         <wb-resource deploy-path="/" source-path="/apps/Tamasia/android"/>
+        <wb-resource deploy-path="/" source-path="/server/java"/>
         <property name="context-root" value="Tamasia"/>
     </wb-module>
 </project-modules>

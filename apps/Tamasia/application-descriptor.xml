@@ -6,10 +6,10 @@
     <displayName>Tamasia</displayName>
     <description>Tamasia</description>
     <author>
-        <name>application's author</name>
-        <email>application author's e-mail</email>
+        <name>Scarf Studio</name>
+        <email>scarf.studio12@gmail.com</email>
         <homepage>http://mycompany.com</homepage>
-        <copyright>Copyright My Company</copyright>
+        <copyright>Copyright Scarf Studio</copyright>
     </author>
     <height>460</height>
     <width>320</width>
