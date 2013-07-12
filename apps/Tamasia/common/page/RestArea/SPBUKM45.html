@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Peta</title>
+<title>SPBU KM 45</title>
 <meta name="viewport"
 	content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=0">
 <link rel="shortcut icon" href="images/favicon.png">
@@ -13,31 +13,28 @@
 	window.$ = window.jQuery = WLJQ;
 </script>
 <script src="jqueryMobile/jquery.mobile-1.3.1.js"></script>
-<script src="http://maps.google.com/maps/api/js?sensor=false"
-	type="text/javascript"></script>
-<script type="text/javascript">
-	function initialize() {
-		var mapOptions = {
-			center : new google.maps.LatLng(-34.397, 150.644),
-			zoom : 8,
-			mapTypeId : google.maps.MapTypeId.ROADMAP
-		};
-		var map = new google.maps.Map(document.getElementById("map-canvas"),
-				mapOptions);
-	}
-	google.maps.event.addDomListener(window, 'load', initialize);
-</script>
-
 </head>
 <body id="content" style="display: none;">
+	<!-- div untuk page -->
 	<div data-role="page" id="page3">
+		<!-- mengatur header halaman -->
 		<div data-role="header" id="header" data-position="fixed">
-			<h3>Peta</h3>
-			<a href="../Tamasia.html" data-icon="arrow-l" id="backHeader">back</a>
+			<h3>SPBU KM 45</h3>
+			<a href="../Penginapan.html" data-icon="arrow-l" id="backHeader">back</a>
 		</div>
+		<!-- mengatur isi content -->
 		<div data-role="content" style="padding: 15px">
-			Map soon be here
-			<div id="map-canvas" style="width: 250px; height: 250px"></div>
+			<!-- list spoiler -->
+			<div data-role="collapsible-set" data-theme="c" data-content-theme="d">
+				<div data-role="collapsible" data-collapsed="false" >
+					<h3>Nama</h3>
+					<p>I'm the collapsible set content for section 1.</p>
+				</div>
+				<div data-role="collapsible">
+					<h3>Denah</h3>
+					<p>I'm the collapsible set content for section 2.</p>
+				</div>
+			</div>
 		</div>
 	</div>
 	<!--application UI goes here-->
