@@ -14,9 +14,9 @@
     <height>460</height>
     <width>320</width>
     <mainFile>Tamasia.html</mainFile>
-    <thumbnailImage>common/images/thumbnail.png</thumbnailImage>
+    <thumbnailImage>common/images/icon/gunungicon.png</thumbnailImage>
     <android version="1.0">
-        <worklightSettings include="true"/>
+        <worklightSettings include="true"/>      
         <security>
             <encryptWebResources enabled="false"/>
             <testWebResourcesChecksum enabled="false" ignoreFileExtensions="png, jpg, jpeg, gif, mp4, mp3"/>
