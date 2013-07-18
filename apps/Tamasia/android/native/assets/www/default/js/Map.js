@@ -1,10 +1,11 @@
 
 /* JavaScript content from js/Map.js in folder common */
+/* API Google Maps untuk munculin Peta */
 function initialize() {
 	var mapOptions = {
-		zoom : 16,
-		center : new google.maps.LatLng(-6.654622, 106.851912),
-		mapTypeId : google.maps.MapTypeId.ROADMAP
+		zoom : 16, /* Zoom untuk ngatur zoom level peta */
+		center : new google.maps.LatLng(-6.654622, 106.851912), /* Center untuk ngatur koordinat tempat*/
+		mapTypeId : google.maps.MapTypeId.ROADMAP /* Roadmap nunjukin defaultnya dia nunjuk peta*/
 	};
 
 	var map = new google.maps.Map(document.getElementById('map-canvas'),

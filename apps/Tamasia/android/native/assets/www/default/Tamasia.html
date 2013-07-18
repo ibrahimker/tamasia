@@ -14,9 +14,10 @@
 
         <link href="images/apple-touch-icon.png" rel="apple-touch-icon">
 
-        <link href="jqueryMobile/jquery.mobile-1.3.1.css" rel="stylesheet">
+        <link href="jqueryMobile/jquery.mobile-1.3.1.min.css" rel="stylesheet">
 
         <link href="css/Tamasia.css" rel="stylesheet">
+<!-- Load script JQuery Here -->
 
         <script>
 
@@ -64,7 +65,8 @@
 		<script src="wlclient/js/wlgap.android.js"></script><script>
 	window.$ = window.jQuery = WLJQ;
 </script>
-<script src="jqueryMobile/jquery.mobile-1.3.1.js"></script>
+<script src="jqueryMobile/jquery.mobile-1.3.1.min.js"></script>
+<!-- Load script Google Maps here -->
 <script src="js/Map.js"></script>
 
     </head>
@@ -76,6 +78,8 @@
 			
                 <h3>Tamasia</h3>
             </div>
+
+		<!-- Berisi ListView menu yang ada -->
             <div data-role="content" style="padding: 15px">
 			
                 <ul data-inset="true" data-role="listview" id="listview">
@@ -109,19 +113,38 @@
                     </li>
 				
                     <li id="tweet">
-                        <a href="page/Tweet.html">Tweet</a>
+                        <a data-position-to="window" data-rel="popup" href="#popupBasic">Berbagi Cerita</a>
                     </li>
 				
                     <li id="peta">
-                        <a href="#mapPage">Peta</a>
+                        <a data-transition="pop" href="#mapPage">Peta</a>
                     </li>
 			
                 </ul>
+			<!-- Popup menu saat tombol berbagi cerita diklik -->
+			
+                <div data-role="popup" id="popupBasic">
+				
+                    <ul data-inset="true" data-role="listview" id="listview">
+					
+                        <li data-icon="false" id="peta">
+                            <a class="twitter-share-button" data-via="scarfstudio" href="https://twitter.com/share">Tweet</a>
+                        </li>
+					
+                        <li data-icon="false" id="peta">
+                            <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Ftwitter.com%2Fscarfstudio" target="_blank"> Share on Facebook </a>
+                        </li>
+				
+                    </ul>
+				
+                    <script src="js/Twitter.js"></script>
+			
+                </div>
             </div>
 	
         </div>
-	
-	<!-- Halaman Peta -->
+
+	<!-- Halaman Peta saat tombol peta diklik -->
 	
         <div data-role="page" id="mapPage">
             <div data-position="fixed" data-role="header" id="header">
