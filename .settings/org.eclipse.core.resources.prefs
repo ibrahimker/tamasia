@@ -1,5 +1,6 @@
 eclipse.preferences.version=1
 encoding//apps/Tamasia/android/css/Tamasia.css=UTF-8
+encoding//apps/Tamasia/blackberry10/css/Tamasia.css=UTF-8
 encoding//apps/Tamasia/common/Tamasia.html=ISO-8859-1
 encoding//apps/Tamasia/common/css/Tamasia.css=UTF-8
 encoding//apps/Tamasia/common/page/Penginapan.html=ISO-8859-1
@@ -15,4 +16,5 @@ encoding//apps/Tamasia/common/page/TempatIbadah/AtTaawun.html=ISO-8859-1
 encoding//apps/Tamasia/common/page/TempatWisata.html=ISO-8859-1
 encoding//apps/Tamasia/common/page/TempatWisata/TamanSafari.html=ISO-8859-1
 encoding//apps/Tamasia/common/page/Transportasi.html=ISO-8859-1
+encoding//apps/Tamasia/windowsphone/css/Tamasia.css=UTF-8
 wl_version=5.0.6

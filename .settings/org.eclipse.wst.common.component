@@ -3,6 +3,9 @@
         <wb-resource deploy-path="/" source-path="/apps/Tamasia/common"/>
         <wb-resource deploy-path="/" source-path="/apps/Tamasia/android"/>
         <wb-resource deploy-path="/" source-path="/server/java"/>
+        <wb-resource deploy-path="/" source-path="/apps/Tamasia/blackberry"/>
+        <wb-resource deploy-path="/" source-path="/apps/Tamasia/windowsphone"/>
+        <wb-resource deploy-path="/" source-path="/apps/Tamasia/blackberry10"/>
         <property name="context-root" value="Tamasia"/>
     </wb-module>
 </project-modules>

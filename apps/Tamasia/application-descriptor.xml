@@ -16,12 +16,17 @@
     <mainFile>Tamasia.html</mainFile>
     <thumbnailImage>common/images/icon/gunungicon.png</thumbnailImage>
     <android version="1.0">
-        <worklightSettings include="true"/>      
+        <worklightSettings include="true"/>
         <security>
             <encryptWebResources enabled="false"/>
             <testWebResourcesChecksum enabled="false" ignoreFileExtensions="png, jpg, jpeg, gif, mp4, mp3"/>
             <publicSigningKey>Replace this text with the public key of the certificate with which you sign the APK. For details see the Worklight Developer's Reference Guide.</publicSigningKey>
         </security>
     </android>
+    <blackberry version="1.0"/>
+    <blackberry10 version="1.0"/>
+    <windowsPhone version="1.0">
+        <uuid>b5aadc94-6e3a-46da-ae5f-22a18d4889bc</uuid>
+    </windowsPhone>
     <worklightServerRootURL>http://${local.IPAddress}:8080</worklightServerRootURL>
 </application>
